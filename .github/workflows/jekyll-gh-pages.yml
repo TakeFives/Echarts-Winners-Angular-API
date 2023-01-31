@@ -32,8 +32,8 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./src
-          destination: ./dist/Echarts-Winners-Angular-API
+          source: ./
+          destination: ./_site/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
